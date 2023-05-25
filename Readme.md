@@ -1,6 +1,6 @@
 # Installation instructions
 
-You can run the Jupyter notebook for the project using a local installation of Python on your computer. Please reach out as soon as possible if you have issues doing this.
+You can run the Jupyter notebook for the project using a local installation of Python on your computer. 
 
 You will need to have a local installation of Python (>3.7 recommended). We recommend that you install Python using [Anaconda](https://www.anaconda.com/products/individual)
 
