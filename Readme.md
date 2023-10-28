@@ -34,14 +34,16 @@ As for the path taken by the robot to complete the task, the robot navigates to 
 
 ```math
 s(t_{init})=0, s(t_{goal})=1
-
-s_{dot}(t_{init})=0, s_{dot}(t_{goal})=1
-
-s_{dot-dot}(t_{init})=0, s_{dot-dot}(t_{goal})=1
-
-
-
 ```
+```math
+s_{dot}(t_{init})=0, s_{dot}(t_{goal})=1
+```
+```math
+s_{dot-dot}(t_{init})=0, s_{dot-dot}(t_{goal})=1
+```
+
+
+
 
 <p align="center">
   <img src="https://github.com/wngkyle/pick-and-place/assets/99611120/c54bbe8f-0012-4e42-a032-df12d980fb0b">
