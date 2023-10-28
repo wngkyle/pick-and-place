@@ -45,6 +45,7 @@ s_{dot-dot}(t_{init}) = 0,\ s_{dot-dot}(t_{goal}) = 1
 ```math
  \theta_{des}(t)\ =\  \theta_{init}\ + (\frac{10}{T^{3}}\ (t - t_{init})^{3}\ + \frac{-15}{T^{4}} (t - t_{init})^{4}\ + \frac{6}{T^{5}} (t - t_{init})^{5})\ \times\ (\theta_{goal}-\theta_{init})
 ```
+$\theta_{des}(t)\ =\  \theta_{init}\ + (\frac{10}{T^{3}}\ (t - t_{init})^{3}\ + \frac{-15}{T^{4}} (t - t_{init})^{4}\ + \frac{6}{T^{5}} (t - t_{init})^{5})\ \times\ (\theta_{goal}-\theta_{init})$
 
 
 
