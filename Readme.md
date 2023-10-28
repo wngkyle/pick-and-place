@@ -1,21 +1,20 @@
-# Installation instructions
+# Pick and Place
 
-You can run the Jupyter notebook for the project using a local installation of Python on your computer. 
+### Table of Contents
 
-You will need to have a local installation of Python (>3.7 recommended). We recommend that you install Python using [Anaconda](https://www.anaconda.com/products/individual)
+- [Introduction](#introduction)
+- [Description](#description)
+- [Built With](#built-with)
+- [Technologies Used](#technologies-used)
 
-You then will need to install 
-1. [Pybullet](https://pybullet.org/wordpress/), which is the simulator
+### Introduction
 
-With an Anaconda installation, you can run the following:
-``conda install pybullet``
+<p align="center">
+  <img src="https://github.com/wngkyle/pick-and-place/assets/99611120/c54bbe8f-0012-4e42-a032-df12d980fb0b">
+</p>
 
-With pip you can install it with
-``pip install pybullet``
+### Description
 
-Or refer to the installation instruction on the Pybullet website.
+### Built With
 
-Your environment should then be all set to run the Notebook.
-
-
-
+### Technologies Used
