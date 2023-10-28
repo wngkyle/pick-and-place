@@ -30,10 +30,15 @@ The reason why the resolve rate motion controller is employed is that it produce
 
 As for the path taken by the robot to complete the task, the robot navigates to a position above block 1 first from its initial position and slowly descends to where block 1 is on table level. The robot grip block 1 using its gripper and ascends back to a position above the block’s initial position. The robot moves to a position above the bowl and then drops the block into the bowl. The same concept applies to block 2. The robot moves from the top of the bowl to a position above block 2 and then descends to where block 2 is. The robot grips block 2 and ascends back to a position above the block’s initial position. The robot then moves to a position above the bowl and drops the block. Here block 1 refers to the block on the right and block 2 refers to the block on the left when viewed from the base frame. 
 
+<p align="center">
+  <img src="https://github.com/wngkyle/pick-and-place/assets/99611120/3f5ffcbd-514b-4a78-8280-5a9dc9d2c94b">
+</p>
+
 ### Algorithm
 
-
-
+<p align="center">
+  <img src="https://github.com/wngkyle/pick-and-place/assets/99611120/c54bbe8f-0012-4e42-a032-df12d980fb0b">
+</p>
 
 ### Built With
 
