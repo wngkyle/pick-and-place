@@ -32,6 +32,8 @@ As for the path taken by the robot to complete the task, the robot navigates to 
 
 ### Algorithm
 
+In `project.ipynb`, the for loop in the code is where all the end effector and joint velocities and positions are calculated. There are eight if-else statements in the for loop, and each of them determines the movement of the robot at a specific time frame. For instance, the first if statement is executed between 0 to 3 seconds, and it moves the robot from its initial position to a position above block 1. While the second if-else statement is executed between from 3 to 6 seconds, and it moves the robot down to where block 1 is, preparing the robot for gripping the block. Inside each if-else statement consists of a function call to the function compute_trajectory. The input arguments of this function are starting position (`start_pos`), desired ending position (`end_pos`), initial time (`t_init`), final time (`t_final`), and current time (`time[i]`). After receiving the inputs, the function `compute_trajectory` uses a 5th-degree polynomial function to compute the desired position and velocity. By implementing a 5th-order polynomial, the function establishes 6 different constraints in controlling the robot. The 6 constraints are described as follows:
+
 ```math
 s(t_{init}) = 0,\ s(t_{goal}) = 1
 ```
@@ -41,6 +43,8 @@ s_{dot}(t_{init}) = 0,\ s_{dot}(t_{goal}) = 1
 ```math
 s_{dot-dot}(t_{init}) = 0,\ s_{dot-dot}(t_{goal}) = 1
 ```
+
+As for the 5 degree polynomials used for computing desired positions, velocities, and acceleration, they are defined as follows:
 
 ```math
  \theta_{des}(t)\ =\  \theta_{init}\ + (\frac{10}{T^{3}}\ (t - t_{init})^{3}\ + \frac{-15}{T^{4}} (t - t_{init})^{4}\ + \frac{6}{T^{5}} (t - t_{init})^{5})\ \times\ (\theta_{goal}-\theta_{init})
