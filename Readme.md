@@ -39,7 +39,7 @@ s(t_{init}) = 0,\: s(t_{goal}) = 1
 s_{dot}(t_{init}) = 0,\; s_{dot}(t_{goal}) = 1
 ```
 ```math
-s_{dot-dot}(t_{init}) = 0,    s_{dot-dot}(t_{goal}) = 1
+s_{dot-dot}(t_{init}) = 0,\ s_{dot-dot}(t_{goal}) = 1
 ```
 
 ```math
