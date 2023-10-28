@@ -13,6 +13,7 @@
 
 <p align="center">
   <img src="https://github.com/wngkyle/pick-and-place/assets/99611120/c7fe27b1-86d2-48da-a324-5e3a283ad486">
+  <br/>
   <img src="https://github.com/wngkyle/pick-and-place/assets/99611120/c54bbe8f-0012-4e42-a032-df12d980fb0b">
 </p>
 
