@@ -1,4 +1,4 @@
-# Pick and Place
+# Pick and Place Motion Controller
 
 ### Table of Contents
 
