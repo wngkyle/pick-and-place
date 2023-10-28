@@ -32,6 +32,10 @@ As for the path taken by the robot to complete the task, the robot navigates to 
 
 ### Algorithm
 
+```math
+s_{init}(t) = 18
+```
+
 <p align="center">
   <img src="https://github.com/wngkyle/pick-and-place/assets/99611120/c54bbe8f-0012-4e42-a032-df12d980fb0b">
 </p>
