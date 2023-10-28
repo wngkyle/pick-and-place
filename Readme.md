@@ -16,10 +16,6 @@ The objective of this project is to implement a controller that allows the robot
   <img src="https://github.com/wngkyle/pick-and-place/assets/99611120/5f01c31b-9ee9-4e09-85c7-6ec4cb7c6983">
 </p>
 
-<p align="center">
-  <img src="https://github.com/wngkyle/pick-and-place/assets/99611120/c54bbe8f-0012-4e42-a032-df12d980fb0b">
-</p>
-
 ### Methodology
 
 The controller employed in this project is the resolve rate motion controller. Resolve rate control focuses in the end-effector space where the velocity of the end effector is computed based on its own position in the workspace. Thus, instead of calculating joint commands and generating trajectory in the joint space, all joint velocities will be computed in the end-effector space in this project.
