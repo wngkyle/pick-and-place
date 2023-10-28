@@ -34,8 +34,11 @@ As for the path taken by the robot to complete the task, the robot navigates to 
 
 ```math
 s(t_{init})=0, s(t_{goal})=1
+
 s_{dot}(t_{init})=0, s_{dot}(t_{goal})=1
+
 s_{dot-dot}(t_{init})=0, s_{dot-dot}(t_{goal})=1
+
 
 
 ```
