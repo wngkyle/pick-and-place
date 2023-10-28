@@ -5,9 +5,6 @@
 - [Introduction](#introduction)
 - [Methodology](#methodology)
 - [Algorithm](#algorithm)
-```
-- [Graphs & Plots](#graphs-and-plots)
-```
 - [Built With](#built-with)
 - [Technologies Used](#technologies-used)
 
@@ -70,16 +67,16 @@ With the inverse Jacobian matrix computed, the desired joint velocity is calcula
   <img src="https://github.com/wngkyle/pick-and-place/assets/99611120/c54bbe8f-0012-4e42-a032-df12d980fb0b">
 </p>
 
-```
-### Graphs and Plots
-
-<p align="center">
-  <img width="559" alt="Screen Shot 2023-10-28 at 12 12 11 PM" src="https://github.com/wngkyle/pick-and-place/assets/99611120/2bcd6d0b-ba23-41b2-ba1d-daac86b43995">
-  <img width="570" alt="Screen Shot 2023-10-28 at 12 12 29 PM" src="https://github.com/wngkyle/pick-and-place/assets/99611120/f33526b4-dc6d-45f7-9065-cb98cd696be5">
-  <img width="697" alt="Screen Shot 2023-10-28 at 12 12 51 PM" src="https://github.com/wngkyle/pick-and-place/assets/99611120/62cd4a7c-983e-48ef-950c-6378ffa0bc04">
-</p>
-```
-
 ### Built With
 
+- Python
+- Panda
+- NumPy
+- PyBullet
+- SciPy
+- Matplotlib
+
 ### Technologies Used
+
+- Jupyter Notebook
+- Github
